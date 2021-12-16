@@ -1,0 +1,16 @@
+PODS:
+  - GBNetworking (0.1.0)
+
+DEPENDENCIES:
+  - GBNetworking (from `Lib/GBNetworking`)
+
+EXTERNAL SOURCES:
+  GBNetworking:
+    :path: Lib/GBNetworking
+
+SPEC CHECKSUMS:
+  GBNetworking: 11fc09202345e55f89c64132349405e9b167b13a
+
+PODFILE CHECKSUM: 624057df025a31bc7285461a65a477e46cab718a
+
+COCOAPODS: 1.10.0

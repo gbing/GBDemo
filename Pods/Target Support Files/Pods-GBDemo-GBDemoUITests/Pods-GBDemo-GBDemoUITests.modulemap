@@ -1,0 +1,6 @@
+framework module Pods_GBDemo_GBDemoUITests {
+  umbrella header "Pods-GBDemo-GBDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
