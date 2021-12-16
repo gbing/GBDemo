@@ -175,9 +175,13 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/GBLogining/GBLogining.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GBMine/GBMine.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GBNetworking/GBNetworking.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/GBLogining/GBLogining.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GBMine/GBMine.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GBNetworking/GBNetworking.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

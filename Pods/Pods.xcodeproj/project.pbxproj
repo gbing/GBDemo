@@ -6,103 +6,195 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8AF1952F605BECBEF413B627CFDE9138 /* GBShelf */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0302715BECAEEF82590B894CE97BDEB /* Build configuration list for PBXAggregateTarget "GBShelf" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GBShelf;
+			productName = GBShelf;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0F7865D1E7065B3D6A8FFDADB28D19B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		70368629B64577951F2A5E79DE3B0160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		792822BC769E3E60B32954360706B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1CF20428D97422DB79721E9F9ED9DC9E /* GBNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA12F09FF3ABBE883570B76F572CE9F /* GBNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D5B3AE0479B96E0EB94D4988E658CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */; };
+		23000985AD16A2C15DDD91FE71DC93AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */; };
+		3EEF35C390A7CD0575159BE42EC04B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */; };
+		4B3EB4BD7B0386E165A6F320FE75920D /* GBLogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E082F66A508D4224B00EDC6F1DE9B7 /* GBLogining-dummy.m */; };
+		4F78BA476ECD02AF0DCF3B37E8386956 /* GBNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502D86815F33D4B7A71BF356CCF4AA05 /* GBNetworking.framework */; };
+		5F87E7B6C4A8ED8B325CDF68BB836771 /* GBLogining.h in Headers */ = {isa = PBXBuildFile; fileRef = 030F2E541580C7FB31BFF79DB58EA251 /* GBLogining.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B74E4ED52D2D50F105E924AC17EE09D /* Pods-GBDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78E1257B30D57B6CE47778B232D9C7 /* Pods-GBDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77181DB1E9C7ADD8B32F11AFE60C6574 /* GBLogining.m in Sources */ = {isa = PBXBuildFile; fileRef = D78DE9B1368A9501B87CAA6146FCBB0C /* GBLogining.m */; };
+		792822BC769E3E60B32954360706B42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */; };
+		7AFB2A203C2436178850982FEC5CBB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */; };
 		7B6834300074470D2FAEBDA3ED0E2B4F /* Pods-GBDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516160CBCB54FB3A5D4D1F8CA4884FCC /* Pods-GBDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DBB9738FBE464D325D6D03B4CC6DD50 /* Pods-GBDemo-GBDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A99BADAF77F61AD4182DE95CBAFC07B /* Pods-GBDemo-GBDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		952E304EA492AC5EA0193FA8C81FED54 /* GBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1487B187BF6F98FB193A55618406C /* GBNetworking.m */; };
-		A824F4C073BC5E963AF81E9F4668F585 /* GBNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4553807CB0FFC107FFED03256E820FE1 /* GBNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7A7F6269679C6456EDCC0FD6C207CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E3C21DA0A17507AF91FF50FB8E78795A /* Pods-GBDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C98E22B774881788B8DDB6251E1EE671 /* Pods-GBDemo-dummy.m */; };
+		86C0D977AF67340AB0DD3298F2EE8310 /* GBLogining-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA431E5576224F3FB5402B69CCDE48E /* GBLogining-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B22D8F13FA5A9F6A627E957AA586350 /* Pods-GBDemo-GBDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A99BADAF77F61AD4182DE95CBAFC07B /* Pods-GBDemo-GBDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FBAAC313B8319A44AFCA10C2F091DC6 /* GBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB46A0304491FA372079D18184C42F /* GBNetworking.m */; };
+		A0C2DF47466DA6CCE1CF62928C289BC6 /* Pods-GBDemo-GBDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6FC02CFE39DC97C20045A001C4E93 /* Pods-GBDemo-GBDemoUITests-dummy.m */; };
+		CBD9C8F3817EDF427EAA1137A931255F /* GBNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC617CF29D2D3C19F7EF35E88F1BC570 /* GBNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9AD3C09683E31423B62374DC81B3D3 /* Pods-GBDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C98E22B774881788B8DDB6251E1EE671 /* Pods-GBDemo-dummy.m */; };
+		D2C74E9CDFD6188AC381C25644FC8E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */; };
 		E588B94213556C88E5EAB6D2532FAAA6 /* Pods-GBDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B092372253EE6E5A904CCA622546ADA /* Pods-GBDemoTests-dummy.m */; };
-		EB12532CAE456C9004125F738660BD5B /* Pods-GBDemo-GBDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6FC02CFE39DC97C20045A001C4E93 /* Pods-GBDemo-GBDemoUITests-dummy.m */; };
-		F1BAD07A24A456DCBCBC30404B5E32FF /* GBNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AD30BF0A6EDB8D3896BC1A3E1DC13FE4 /* GBNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F842844791151C8E6F7B2E6E5FBF63DF /* Pods-GBDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78E1257B30D57B6CE47778B232D9C7 /* Pods-GBDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F933F54C3BC93ECCAD8C0869297B7425 /* GBNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1847DB37968EF1C5AFAACE74D82B201 /* GBNetworking-dummy.m */; };
+		ED95B51778A10E6CD37FC61E506350CB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D4730D1DAFF2A4917E7F991530E99 /* ReplaceMe.m */; };
+		FCABE124C0AF7E4C9E841BD5E8392A8B /* GBMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 863411E6221B2B707F3CC38E21DCCC36 /* GBMine-dummy.m */; };
+		FD6EBFEB4E4474568E214F8C0770F364 /* GBNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C20C9D539349D9D70199D9184E04810 /* GBNetworking-dummy.m */; };
+		FDB27EBD0A6AF1152DC6DEE58B8D357C /* GBMine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2384C110F2B212C90CC748B1FC0AC4 /* GBMine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		075F93343A5B477011D6CE27A969D6FD /* PBXContainerItemProxy */ = {
+		0D18416A890E5593796C496B37546135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AB1EFD3E82013DBCDAF8155C761DC4C;
-			remoteInfo = GBNetworking;
+			remoteGlobalIDString = F8C3DD2F15F8A72E2CD6BF81557B5D2B;
+			remoteInfo = GBLogining;
 		};
-		11B2F106FA6A439CADE97D0A17BDABA6 /* PBXContainerItemProxy */ = {
+		40EC821F8AFB583BDD8EADE66A8632E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AB1EFD3E82013DBCDAF8155C761DC4C;
-			remoteInfo = GBNetworking;
+			remoteGlobalIDString = 3D1166B2168A71D9698478E7CF620F84;
+			remoteInfo = GBMine;
 		};
-		DAB589696BACC55999EB387AE98C3E19 /* PBXContainerItemProxy */ = {
+		626A6B8F40D0A9E4B90C1A11D63B4A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C3DD2F15F8A72E2CD6BF81557B5D2B;
+			remoteInfo = GBLogining;
+		};
+		8BD34F6B049EC1E6E968EAD9F0BADDFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 407C6632AA44745369F5386601C7DADE;
 			remoteInfo = "Pods-GBDemo";
 		};
+		8C0F98127F6A11296150EB6FCB9C2548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB1EFD3E82013DBCDAF8155C761DC4C;
+			remoteInfo = GBNetworking;
+		};
+		A909B4CCCC8EC995C06FD484C8CA5551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB1EFD3E82013DBCDAF8155C761DC4C;
+			remoteInfo = GBNetworking;
+		};
+		A94F2648530FA38B5F4D520511CA34F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF1952F605BECBEF413B627CFDE9138;
+			remoteInfo = GBShelf;
+		};
+		AA1D77036261CD67FED4B1C67B400085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1166B2168A71D9698478E7CF620F84;
+			remoteInfo = GBMine;
+		};
+		ACA96BEB4249F175462C8DCAA07152E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF1952F605BECBEF413B627CFDE9138;
+			remoteInfo = GBShelf;
+		};
+		C3A18823B55312449CC8AE534678DB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB1EFD3E82013DBCDAF8155C761DC4C;
+			remoteInfo = GBNetworking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E42032FE16D8B6170899691E7D7C564 /* GBNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBNetworking.release.xcconfig; sourceTree = "<group>"; };
+		030F2E541580C7FB31BFF79DB58EA251 /* GBLogining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBLogining.h; path = GBLogining/Classes/GBLogining.h; sourceTree = "<group>"; };
+		0B7CCE309D0474AC2AAD5549786E8F34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		16BF971E9FDF5A239D455CF8569FA8A3 /* GBMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBMine.release.xcconfig; sourceTree = "<group>"; };
+		1D83112A3150B3843732D7A6650EB74A /* GBNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBNetworking-prefix.pch"; sourceTree = "<group>"; };
 		202489AA20D77BEC10E5ABD49244ADE1 /* Pods-GBDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBDemo-frameworks.sh"; sourceTree = "<group>"; };
+		20804CD2B222D2AB8EDD398C6131FE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		21AF2A4474C7286B3BC56F4EF271E544 /* Pods-GBDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B5D2734F03AF2B8BC8A47A5A5AA02E1 /* Pods_GBDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBDemo.framework; path = "Pods-GBDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37C8A3A2CE1B85234FEE94A847148BC4 /* GBNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		2B5D2734F03AF2B8BC8A47A5A5AA02E1 /* Pods_GBDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C81DB1CCF00E9B52F2A28F40E58E33 /* GBMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBMine-prefix.pch"; sourceTree = "<group>"; };
 		3989540DC7012DF9A558A5345FB83E99 /* Pods-GBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3BB079B461E6C76B8700E8AB048154CD /* GBLogining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBLogining.debug.xcconfig; sourceTree = "<group>"; };
 		3D928E7F5C8BE0929C3D143E2AA5B251 /* Pods-GBDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4553807CB0FFC107FFED03256E820FE1 /* GBNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBNetworking-umbrella.h"; sourceTree = "<group>"; };
-		46B6B1DB2EFE22CE7BF1A26F8D2E2A08 /* GBNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GBNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45AAAFF6079D62EC2EBEDCEF269BE8D5 /* GBNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBNetworking.release.xcconfig; sourceTree = "<group>"; };
+		4BA2BFF1CDDBEDA2CC6EFDCD367F2526 /* GBMine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBMine-Info.plist"; sourceTree = "<group>"; };
 		4BDD0508BB5A7EC4B6390682EA11BE59 /* Pods-GBDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBDemo.modulemap"; sourceTree = "<group>"; };
-		5010F3BBBC49C85AA71682A95612474A /* GBNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBNetworking-prefix.pch"; sourceTree = "<group>"; };
+		4BF4CC4BF4B1E9986E966760DA65F7E3 /* GBLogining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBLogining.release.xcconfig; sourceTree = "<group>"; };
+		502D86815F33D4B7A71BF356CCF4AA05 /* GBNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		516160CBCB54FB3A5D4D1F8CA4884FCC /* Pods-GBDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		5C7E8EABA8E0CD59473CB4D741BC4B0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		55E082F66A508D4224B00EDC6F1DE9B7 /* GBLogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBLogining-dummy.m"; sourceTree = "<group>"; };
+		5AA12F09FF3ABBE883570B76F572CE9F /* GBNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBNetworking.h; path = GBNetworking/Classes/GBNetworking.h; sourceTree = "<group>"; };
+		5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D2384C110F2B212C90CC748B1FC0AC4 /* GBMine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBMine-umbrella.h"; sourceTree = "<group>"; };
 		6C3B2582095E2288F552DA6581F21B8B /* Pods-GBDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBDemo-Info.plist"; sourceTree = "<group>"; };
+		6D577F57868521901F20255EE338350A /* GBNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBNetworking-Info.plist"; sourceTree = "<group>"; };
 		700E2DA811DB6A1207F36A309DCF0B96 /* Pods-GBDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73120C37461322CDC34377D44DCF0C57 /* Pods_GBDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBDemoTests.framework; path = "Pods-GBDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73120C37461322CDC34377D44DCF0C57 /* Pods_GBDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79440818366DF83DE918E1440C24E45E /* Pods-GBDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A99BADAF77F61AD4182DE95CBAFC07B /* Pods-GBDemo-GBDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBDemo-GBDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		7C9DDA54AAD509628DDFA7FFA96BBC10 /* GBNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBNetworking-Info.plist"; sourceTree = "<group>"; };
+		7C20C9D539349D9D70199D9184E04810 /* GBNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBNetworking-dummy.m"; sourceTree = "<group>"; };
 		7E0237B2F71EF4AA32E59E708CAB6215 /* Pods-GBDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		801B09B240BB8CDD24EA59A97C165613 /* GBShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBShelf.release.xcconfig; sourceTree = "<group>"; };
+		863411E6221B2B707F3CC38E21DCCC36 /* GBMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBMine-dummy.m"; sourceTree = "<group>"; };
+		8B291A826F729E241F7F1DEA5E955C87 /* GBNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBNetworking.modulemap; sourceTree = "<group>"; };
 		8DE31EA0C312391188785EAB207DAA9D /* Pods-GBDemo-GBDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBDemo-GBDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		91E8C6B4AD62AAF8FA244BD793DA7607 /* Pods_GBDemo_GBDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBDemo_GBDemoUITests.framework; path = "Pods-GBDemo-GBDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BB46A0304491FA372079D18184C42F /* GBNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBNetworking.m; path = GBNetworking/Classes/GBNetworking.m; sourceTree = "<group>"; };
+		91E8C6B4AD62AAF8FA244BD793DA7607 /* Pods_GBDemo_GBDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBDemo_GBDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		927816000D7042AAB4153B965B53F53E /* Pods-GBDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBDemoTests-Info.plist"; sourceTree = "<group>"; };
+		9327519D9C39C3CB4635D7C2679B3731 /* GBMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBMine.debug.xcconfig; sourceTree = "<group>"; };
 		99A6FC02CFE39DC97C20045A001C4E93 /* Pods-GBDemo-GBDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBDemo-GBDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		9A04CDC867AD5A154068B06BD8C1D71B /* GBMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAB3AE111C295BB8A314DEF9AC5F127 /* GBLogining.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBLogining.modulemap; sourceTree = "<group>"; };
 		9B092372253EE6E5A904CCA622546ADA /* Pods-GBDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBDemoTests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E6320C521C18FB693AC0762060066E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9A974A67164FC68A5A89B34FBEFE5FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA0B5132A4ED97C55451674CF6D6DDC9 /* Pods-GBDemo-GBDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBDemo-GBDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AD30BF0A6EDB8D3896BC1A3E1DC13FE4 /* GBNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBNetworking.h; path = GBNetworking/Classes/GBNetworking.h; sourceTree = "<group>"; };
-		B11B1E4C2F467C436B26FA5AF63C6C9D /* GBNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBNetworking.modulemap; sourceTree = "<group>"; };
-		C1847DB37968EF1C5AFAACE74D82B201 /* GBNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBNetworking-dummy.m"; sourceTree = "<group>"; };
+		C0162AB37E5936A4D0725EABD628A8FF /* GBLogining-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBLogining-Info.plist"; sourceTree = "<group>"; };
 		C9522EBA75B577A4A71B4F97B843B5AA /* Pods-GBDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C98E22B774881788B8DDB6251E1EE671 /* Pods-GBDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBDemo-dummy.m"; sourceTree = "<group>"; };
 		CBA9915293658EE7BAD082C2544E37B2 /* Pods-GBDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBDemoTests.modulemap"; sourceTree = "<group>"; };
-		CEF1487B187BF6F98FB193A55618406C /* GBNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBNetworking.m; path = GBNetworking/Classes/GBNetworking.m; sourceTree = "<group>"; };
+		CC402F580954E6C78B1B9BC75C618878 /* GBLogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBLogining-prefix.pch"; sourceTree = "<group>"; };
 		D396103519776E6F1899FF812A0D9B18 /* Pods-GBDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D757E36488984D9B450F9B646CBCFB35 /* GBShelf.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GBShelf.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D764B5B3F928B076DC4D8664BEBF84A9 /* Pods-GBDemo-GBDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBDemo-GBDemoUITests.modulemap"; sourceTree = "<group>"; };
+		D78DE9B1368A9501B87CAA6146FCBB0C /* GBLogining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBLogining.m; path = GBLogining/Classes/GBLogining.m; sourceTree = "<group>"; };
+		DC72D65B276B2D6A009E90CF /* OpenTheDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTheDoor.h; sourceTree = "<group>"; };
+		DC72D65C276B2D6A009E90CF /* OpenTheDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTheDoor.m; sourceTree = "<group>"; };
 		DC7FC71074E234D3FFD0806A6F5E30B9 /* Pods-GBDemo-GBDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBDemo-GBDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		DD78E1257B30D57B6CE47778B232D9C7 /* Pods-GBDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBDemo-umbrella.h"; sourceTree = "<group>"; };
+		DE0D4730D1DAFF2A4917E7F991530E99 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GBMine/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DE82C552D10F865AB91C8F48AC38BCC9 /* Pods-GBDemo-GBDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBDemo-GBDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFFD2B3CFCD59C25488AA45102515C27 /* Pods-GBDemo-GBDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBDemo-GBDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDCAB28E9556806E9AD3A298568572F1 /* GBNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBNetworking.framework; path = GBNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C9FE588C448A7FDDAD291509FC4328 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E4F2D2A6023AE72C1D516F61FAAFEF85 /* GBNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		E69F629A83AD7BED85D9E80FDEB5C007 /* GBMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GBMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAA431E5576224F3FB5402B69CCDE48E /* GBLogining-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBLogining-umbrella.h"; sourceTree = "<group>"; };
+		EDCAB28E9556806E9AD3A298568572F1 /* GBNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F056628B01962F1F0BB9F32CE447F0CD /* GBMine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBMine.modulemap; sourceTree = "<group>"; };
+		F605373741427431E8E1C6743A6025A9 /* GBShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBShelf.debug.xcconfig; sourceTree = "<group>"; };
+		F8D9B01BC507B8A7D0FBA84AB1AC4016 /* GBLogining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBLogining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987D7F3A262B6152C7DCF9BB3554314 /* GBLogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GBLogining.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA9257FE9EF48AD5BCE721A88677E75C /* Pods-GBDemo-GBDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBDemo-GBDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC617CF29D2D3C19F7EF35E88F1BC570 /* GBNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBNetworking-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36486E5E9A4FB60C95C4D9A39BA014B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F7865D1E7065B3D6A8FFDADB28D19B7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		37AE3DE90C2AD982664C81E45B2CBC86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,19 +203,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D758F54AD3B50ABA4DDAD74540E201F /* Frameworks */ = {
+		AB3A64362211C9EA3D377AA0937D54DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A7F6269679C6456EDCC0FD6C207CAA /* Foundation.framework in Frameworks */,
+				20D5B3AE0479B96E0EB94D4988E658CB /* Foundation.framework in Frameworks */,
+				4F78BA476ECD02AF0DCF3B37E8386956 /* GBNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD8CFBEC79EB333BEDEE8CB8A4D99228 /* Frameworks */ = {
+		B0E0CF2B1B2DD64C814F5BCA91FA7B52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70368629B64577951F2A5E79DE3B0160 /* Foundation.framework in Frameworks */,
+				7AFB2A203C2436178850982FEC5CBB54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D018A60FCD511E22CA8923C0A6F834AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C74E9CDFD6188AC381C25644FC8E27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3754DBB1498C786FA39742B5864649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEF35C390A7CD0575159BE42EC04B9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53173A512556025ECAE89A1775BCBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23000985AD16A2C15DDD91FE71DC93AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,18 +264,53 @@
 			path = "Target Support Files/Pods-GBDemo";
 			sourceTree = "<group>";
 		};
-		425B567AE9D4C88F389CF368ECBD0A90 /* Development Pods */ = {
+		1D41FBA5DB4E31B488A5C44CF52C4FB6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8A7528401FEDAEEFDAB948E9E5C2D0FF /* GBNetworking */,
+				E69F629A83AD7BED85D9E80FDEB5C007 /* GBMine.podspec */,
+				20804CD2B222D2AB8EDD398C6131FE12 /* LICENSE */,
+				0B7CCE309D0474AC2AAD5549786E8F34 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		2EA85E24C4677A619AF7B75AC29F2C09 /* GBLogining */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				030F2E541580C7FB31BFF79DB58EA251 /* GBLogining.h */,
+				D78DE9B1368A9501B87CAA6146FCBB0C /* GBLogining.m */,
+				6205EA5BF2088654ED6EDCC4562ABEBF /* Pod */,
+				A7F0F9A21BC3BB3430163FB9ABB4D67F /* Support Files */,
+			);
+			name = GBLogining;
+			path = ../Lib/GBLogining;
+			sourceTree = "<group>";
+		};
+		3B73A2F5A292A028878063DEA3751299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C818CBDA646B091D614B521ED82CF88D /* GBNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E9760F58B891C9AAE84162802430E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9B01BC507B8A7D0FBA84AB1AC4016 /* GBLogining.framework */,
+				9A04CDC867AD5A154068B06BD8C1D71B /* GBMine.framework */,
+				EDCAB28E9556806E9AD3A298568572F1 /* GBNetworking.framework */,
+				2B5D2734F03AF2B8BC8A47A5A5AA02E1 /* Pods_GBDemo.framework */,
+				91E8C6B4AD62AAF8FA244BD793DA7607 /* Pods_GBDemo_GBDemoUITests.framework */,
+				73120C37461322CDC34377D44DCF0C57 /* Pods_GBDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489358C0601AAE8CBB5ED0566C5E98F0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F4C20F463036934CD8738277C2DEB /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -189,71 +341,141 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		742C5BDBE9254EFD83DD4310309D4938 /* Pod */ = {
+		5F407A523CFE089A4411BDB80BCF2D2C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				46B6B1DB2EFE22CE7BF1A26F8D2E2A08 /* GBNetworking.podspec */,
-				5C7E8EABA8E0CD59473CB4D741BC4B0A /* LICENSE */,
-				9E6320C521C18FB693AC0762060066E8 /* README.md */,
+				D757E36488984D9B450F9B646CBCFB35 /* GBShelf.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7F158F9EDD13BD56A852BD1C090A6FC7 /* Support Files */ = {
+		6205EA5BF2088654ED6EDCC4562ABEBF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B11B1E4C2F467C436B26FA5AF63C6C9D /* GBNetworking.modulemap */,
-				C1847DB37968EF1C5AFAACE74D82B201 /* GBNetworking-dummy.m */,
-				7C9DDA54AAD509628DDFA7FFA96BBC10 /* GBNetworking-Info.plist */,
-				5010F3BBBC49C85AA71682A95612474A /* GBNetworking-prefix.pch */,
-				4553807CB0FFC107FFED03256E820FE1 /* GBNetworking-umbrella.h */,
-				37C8A3A2CE1B85234FEE94A847148BC4 /* GBNetworking.debug.xcconfig */,
-				1E42032FE16D8B6170899691E7D7C564 /* GBNetworking.release.xcconfig */,
+				F987D7F3A262B6152C7DCF9BB3554314 /* GBLogining.podspec */,
+				E1C9FE588C448A7FDDAD291509FC4328 /* LICENSE */,
+				A9A974A67164FC68A5A89B34FBEFE5FE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A3BA877B8D4391BEFB7ACD43A8704E61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F605373741427431E8E1C6743A6025A9 /* GBShelf.debug.xcconfig */,
+				801B09B240BB8CDD24EA59A97C165613 /* GBShelf.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/GBNetworking";
+			path = "../Pods/Target Support Files/GBShelf";
 			sourceTree = "<group>";
 		};
-		8A7528401FEDAEEFDAB948E9E5C2D0FF /* GBNetworking */ = {
+		A7F0F9A21BC3BB3430163FB9ABB4D67F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD30BF0A6EDB8D3896BC1A3E1DC13FE4 /* GBNetworking.h */,
-				CEF1487B187BF6F98FB193A55618406C /* GBNetworking.m */,
-				742C5BDBE9254EFD83DD4310309D4938 /* Pod */,
-				7F158F9EDD13BD56A852BD1C090A6FC7 /* Support Files */,
+				9AAB3AE111C295BB8A314DEF9AC5F127 /* GBLogining.modulemap */,
+				55E082F66A508D4224B00EDC6F1DE9B7 /* GBLogining-dummy.m */,
+				C0162AB37E5936A4D0725EABD628A8FF /* GBLogining-Info.plist */,
+				CC402F580954E6C78B1B9BC75C618878 /* GBLogining-prefix.pch */,
+				EAA431E5576224F3FB5402B69CCDE48E /* GBLogining-umbrella.h */,
+				3BB079B461E6C76B8700E8AB048154CD /* GBLogining.debug.xcconfig */,
+				4BF4CC4BF4B1E9986E966760DA65F7E3 /* GBLogining.release.xcconfig */,
 			);
-			name = GBNetworking;
-			path = ../Lib/GBNetworking;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/GBLogining";
 			sourceTree = "<group>";
 		};
-		CB9F4D05BDB73C43A1E5BDCA90300A9F /* Products */ = {
+		BEC6EF1000771A469D68235E0283FBC9 /* GBShelf */ = {
 			isa = PBXGroup;
 			children = (
-				EDCAB28E9556806E9AD3A298568572F1 /* GBNetworking.framework */,
-				2B5D2734F03AF2B8BC8A47A5A5AA02E1 /* Pods_GBDemo.framework */,
-				91E8C6B4AD62AAF8FA244BD793DA7607 /* Pods_GBDemo_GBDemoUITests.framework */,
-				73120C37461322CDC34377D44DCF0C57 /* Pods_GBDemoTests.framework */,
+				5F407A523CFE089A4411BDB80BCF2D2C /* Pod */,
+				A3BA877B8D4391BEFB7ACD43A8704E61 /* Support Files */,
+				DC72D65B276B2D6A009E90CF /* OpenTheDoor.h */,
+				DC72D65C276B2D6A009E90CF /* OpenTheDoor.m */,
 			);
-			name = Products;
+			name = GBShelf;
+			path = ../Lib;
+			sourceTree = "<group>";
+		};
+		C818CBDA646B091D614B521ED82CF88D /* GBNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5AA12F09FF3ABBE883570B76F572CE9F /* GBNetworking.h */,
+				91BB46A0304491FA372079D18184C42F /* GBNetworking.m */,
+				E15AC89679B97B1509EA39875E6ED161 /* Support Files */,
+			);
+			path = GBNetworking;
+			sourceTree = "<group>";
+		};
+		C97F10B0DED270D363D34CBEB8DD65A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EA85E24C4677A619AF7B75AC29F2C09 /* GBLogining */,
+				FB096EB95AE961BAC8167152D50C733E /* GBMine */,
+				BEC6EF1000771A469D68235E0283FBC9 /* GBShelf */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				425B567AE9D4C88F389CF368ECBD0A90 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CB9F4D05BDB73C43A1E5BDCA90300A9F /* Products */,
+				C97F10B0DED270D363D34CBEB8DD65A2 /* Development Pods */,
+				F969DA5D495FD0613C2F0DFB968C5B29 /* Frameworks */,
+				3B73A2F5A292A028878063DEA3751299 /* Pods */,
+				3E9760F58B891C9AAE84162802430E53 /* Products */,
 				5B6A01A214FAD60023D33C7701678BEB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E15AC89679B97B1509EA39875E6ED161 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				8B291A826F729E241F7F1DEA5E955C87 /* GBNetworking.modulemap */,
+				7C20C9D539349D9D70199D9184E04810 /* GBNetworking-dummy.m */,
+				6D577F57868521901F20255EE338350A /* GBNetworking-Info.plist */,
+				1D83112A3150B3843732D7A6650EB74A /* GBNetworking-prefix.pch */,
+				FC617CF29D2D3C19F7EF35E88F1BC570 /* GBNetworking-umbrella.h */,
+				E4F2D2A6023AE72C1D516F61FAAFEF85 /* GBNetworking.debug.xcconfig */,
+				45AAAFF6079D62EC2EBEDCEF269BE8D5 /* GBNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GBNetworking";
+			sourceTree = "<group>";
+		};
+		F969DA5D495FD0613C2F0DFB968C5B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				502D86815F33D4B7A71BF356CCF4AA05 /* GBNetworking.framework */,
+				489358C0601AAE8CBB5ED0566C5E98F0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB096EB95AE961BAC8167152D50C733E /* GBMine */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D4730D1DAFF2A4917E7F991530E99 /* ReplaceMe.m */,
+				1D41FBA5DB4E31B488A5C44CF52C4FB6 /* Pod */,
+				FC8F7D887CB8A00BCB87AB152E6B76A5 /* Support Files */,
+			);
+			name = GBMine;
+			path = ../Lib/GBMine;
+			sourceTree = "<group>";
+		};
+		FC8F7D887CB8A00BCB87AB152E6B76A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F056628B01962F1F0BB9F32CE447F0CD /* GBMine.modulemap */,
+				863411E6221B2B707F3CC38E21DCCC36 /* GBMine-dummy.m */,
+				4BA2BFF1CDDBEDA2CC6EFDCD367F2526 /* GBMine-Info.plist */,
+				31C81DB1CCF00E9B52F2A28F40E58E33 /* GBMine-prefix.pch */,
+				5D2384C110F2B212C90CC748B1FC0AC4 /* GBMine-umbrella.h */,
+				9327519D9C39C3CB4635D7C2679B3731 /* GBMine.debug.xcconfig */,
+				16BF971E9FDF5A239D455CF8569FA8A3 /* GBMine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/GBMine";
 			sourceTree = "<group>";
 		};
 		FF5FED05B9DDA514289B187F1719D334 /* Pods-GBDemo-GBDemoUITests */ = {
@@ -276,19 +498,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0FB80123A4853BCEF3EE7873328D4B65 /* Headers */ = {
+		27654884CF0CB5BC1661F411D768B22C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F842844791151C8E6F7B2E6E5FBF63DF /* Pods-GBDemo-umbrella.h in Headers */,
+				6B74E4ED52D2D50F105E924AC17EE09D /* Pods-GBDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B4D4EAA6530FF231F12A7FAFD1C6A0D /* Headers */ = {
+		42ADAA0B3027637D2E370316ACD46845 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DBB9738FBE464D325D6D03B4CC6DD50 /* Pods-GBDemo-GBDemoUITests-umbrella.h in Headers */,
+				8B22D8F13FA5A9F6A627E957AA586350 /* Pods-GBDemo-GBDemoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +522,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9C82B3B4A62E6A088CE17B16D71457E /* Headers */ = {
+		7DF45B1B8EB4B44A8C8046EAE5199E44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A824F4C073BC5E963AF81E9F4668F585 /* GBNetworking-umbrella.h in Headers */,
-				F1BAD07A24A456DCBCBC30404B5E32FF /* GBNetworking.h in Headers */,
+				86C0D977AF67340AB0DD3298F2EE8310 /* GBLogining-umbrella.h in Headers */,
+				5F87E7B6C4A8ED8B325CDF68BB836771 /* GBLogining.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE4E191B607E5786331B97241B01DBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB27EBD0A6AF1152DC6DEE58B8D357C /* GBMine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3D61D5804A6B174218BDF9DD6A9D22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD9C8F3817EDF427EAA1137A931255F /* GBNetworking-umbrella.h in Headers */,
+				1CF20428D97422DB79721E9F9ED9DC9E /* GBNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,26 +563,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				B753B0DF3CD3929362190B1FBED769E9 /* PBXTargetDependency */,
+				8B9738393DBDDE6358F934FD5B40F073 /* PBXTargetDependency */,
 			);
 			name = "Pods-GBDemoTests";
 			productName = "Pods-GBDemoTests";
 			productReference = 73120C37461322CDC34377D44DCF0C57 /* Pods_GBDemoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		407C6632AA44745369F5386601C7DADE /* Pods-GBDemo */ = {
+		3D1166B2168A71D9698478E7CF620F84 /* GBMine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B82A8435CC4A1CF74C81691CC5ED274 /* Build configuration list for PBXNativeTarget "Pods-GBDemo" */;
+			buildConfigurationList = 0A6BBD13AC56150C3049DE8181553D92 /* Build configuration list for PBXNativeTarget "GBMine" */;
 			buildPhases = (
-				0FB80123A4853BCEF3EE7873328D4B65 /* Headers */,
-				17E47C36E3E55A03200004C7AEF9FB91 /* Sources */,
-				36486E5E9A4FB60C95C4D9A39BA014B6 /* Frameworks */,
-				95668D68E126C544E348508EECF61CEE /* Resources */,
+				ADE4E191B607E5786331B97241B01DBE /* Headers */,
+				EB187138C96680FB55CAD78BC147C017 /* Sources */,
+				DB3754DBB1498C786FA39742B5864649 /* Frameworks */,
+				C4E02BEDB49D364A506BA7D5C9427B47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				77667BC88FA76B5AC05185E22BB46E5C /* PBXTargetDependency */,
+			);
+			name = GBMine;
+			productName = GBMine;
+			productReference = 9A04CDC867AD5A154068B06BD8C1D71B /* GBMine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		407C6632AA44745369F5386601C7DADE /* Pods-GBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FCB7458C831008B40D12882C27FDBA /* Build configuration list for PBXNativeTarget "Pods-GBDemo" */;
+			buildPhases = (
+				27654884CF0CB5BC1661F411D768B22C /* Headers */,
+				1CE6181E614B2D17CB0CB4C6562016D5 /* Sources */,
+				E53173A512556025ECAE89A1775BCBC2 /* Frameworks */,
+				82F9D94DC75BEBAC513390398951F4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D552A23191FFE66FB110615710CE0E5 /* PBXTargetDependency */,
+				68C9D45B5A534025CA3E9CEB19045D80 /* PBXTargetDependency */,
+				E2A3351C445C07C01BFF22AEDFA047BE /* PBXTargetDependency */,
+				D7D811C8C5A3ADA5F01E750D041A6330 /* PBXTargetDependency */,
 			);
 			name = "Pods-GBDemo";
 			productName = "Pods-GBDemo";
@@ -352,12 +612,12 @@
 		};
 		7AB1EFD3E82013DBCDAF8155C761DC4C /* GBNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75E4AAB2A78D786401C9D507FE72C44D /* Build configuration list for PBXNativeTarget "GBNetworking" */;
+			buildConfigurationList = 37A79500918B0A422E300AFBD843DE34 /* Build configuration list for PBXNativeTarget "GBNetworking" */;
 			buildPhases = (
-				D9C82B3B4A62E6A088CE17B16D71457E /* Headers */,
-				8587166723262CDAC2F46F30D08CD599 /* Sources */,
-				AD8CFBEC79EB333BEDEE8CB8A4D99228 /* Frameworks */,
-				F0771F7D947729DFE85DC01D30FD0F32 /* Resources */,
+				DB3D61D5804A6B174218BDF9DD6A9D22 /* Headers */,
+				5F8B6413B0022BCE4FEFCA03A040599E /* Sources */,
+				B0E0CF2B1B2DD64C814F5BCA91FA7B52 /* Frameworks */,
+				E97F3A2E2F96847C52C248D5447B29FA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -370,21 +630,43 @@
 		};
 		9DDD1227788CBC2B16B0CC8A58B0B5EB /* Pods-GBDemo-GBDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C813CC8DA186D0889D9A9AFBFA518552 /* Build configuration list for PBXNativeTarget "Pods-GBDemo-GBDemoUITests" */;
+			buildConfigurationList = 490AEEDD9DB2FFAAC84451E7764DCB1B /* Build configuration list for PBXNativeTarget "Pods-GBDemo-GBDemoUITests" */;
 			buildPhases = (
-				1B4D4EAA6530FF231F12A7FAFD1C6A0D /* Headers */,
-				C9CE20F191ADF07B61AD63EEADE36EBE /* Sources */,
-				9D758F54AD3B50ABA4DDAD74540E201F /* Frameworks */,
-				01B4625FB14AB63D56F04B71490871EC /* Resources */,
+				42ADAA0B3027637D2E370316ACD46845 /* Headers */,
+				103AC496FD053B03F728371C4DED3A10 /* Sources */,
+				D018A60FCD511E22CA8923C0A6F834AC /* Frameworks */,
+				69387DCAB4B9309D815C065AB0C2C436 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F32AE165EE2E10AA77FDFAEBC1366E5D /* PBXTargetDependency */,
+				155F96D266187E9FBAA182CED78DD683 /* PBXTargetDependency */,
+				566CC7088C03FD13A1EAB4FAF6A49C4C /* PBXTargetDependency */,
+				0386546BBBCD99FD1017C391E1FF94CF /* PBXTargetDependency */,
+				FA5B3B1FC47B85235C8C67B745B95107 /* PBXTargetDependency */,
 			);
 			name = "Pods-GBDemo-GBDemoUITests";
 			productName = "Pods-GBDemo-GBDemoUITests";
 			productReference = 91E8C6B4AD62AAF8FA244BD793DA7607 /* Pods_GBDemo_GBDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8C3DD2F15F8A72E2CD6BF81557B5D2B /* GBLogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCFF1F6260FDFFD82BACB77833809F9 /* Build configuration list for PBXNativeTarget "GBLogining" */;
+			buildPhases = (
+				7DF45B1B8EB4B44A8C8046EAE5199E44 /* Headers */,
+				8F1E801D9ECAB3BAD7FADBF95C25623D /* Sources */,
+				AB3A64362211C9EA3D377AA0937D54DA /* Frameworks */,
+				9E7DCC4BB81B704B6FE3EE42BC0E02DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED19785EE2D83FA0FE5AC162468B2903 /* PBXTargetDependency */,
+			);
+			name = GBLogining;
+			productName = GBLogining;
+			productReference = F8D9B01BC507B8A7D0FBA84AB1AC4016 /* GBLogining.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -405,11 +687,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CB9F4D05BDB73C43A1E5BDCA90300A9F /* Products */;
+			productRefGroup = 3E9760F58B891C9AAE84162802430E53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				F8C3DD2F15F8A72E2CD6BF81557B5D2B /* GBLogining */,
+				3D1166B2168A71D9698478E7CF620F84 /* GBMine */,
 				7AB1EFD3E82013DBCDAF8155C761DC4C /* GBNetworking */,
+				8AF1952F605BECBEF413B627CFDE9138 /* GBShelf */,
 				407C6632AA44745369F5386601C7DADE /* Pods-GBDemo */,
 				9DDD1227788CBC2B16B0CC8A58B0B5EB /* Pods-GBDemo-GBDemoUITests */,
 				182A948EDCFB1488D2834BB510DA2673 /* Pods-GBDemoTests */,
@@ -418,7 +703,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01B4625FB14AB63D56F04B71490871EC /* Resources */ = {
+		69387DCAB4B9309D815C065AB0C2C436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F9D94DC75BEBAC513390398951F4E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -432,14 +724,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95668D68E126C544E348508EECF61CEE /* Resources */ = {
+		9E7DCC4BB81B704B6FE3EE42BC0E02DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0771F7D947729DFE85DC01D30FD0F32 /* Resources */ = {
+		C4E02BEDB49D364A506BA7D5C9427B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97F3A2E2F96847C52C248D5447B29FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,11 +748,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17E47C36E3E55A03200004C7AEF9FB91 /* Sources */ = {
+		103AC496FD053B03F728371C4DED3A10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C21DA0A17507AF91FF50FB8E78795A /* Pods-GBDemo-dummy.m in Sources */,
+				A0C2DF47466DA6CCE1CF62928C289BC6 /* Pods-GBDemo-GBDemoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,47 +764,174 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8587166723262CDAC2F46F30D08CD599 /* Sources */ = {
+		1CE6181E614B2D17CB0CB4C6562016D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F933F54C3BC93ECCAD8C0869297B7425 /* GBNetworking-dummy.m in Sources */,
-				952E304EA492AC5EA0193FA8C81FED54 /* GBNetworking.m in Sources */,
+				CD9AD3C09683E31423B62374DC81B3D3 /* Pods-GBDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9CE20F191ADF07B61AD63EEADE36EBE /* Sources */ = {
+		5F8B6413B0022BCE4FEFCA03A040599E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB12532CAE456C9004125F738660BD5B /* Pods-GBDemo-GBDemoUITests-dummy.m in Sources */,
+				FD6EBFEB4E4474568E214F8C0770F364 /* GBNetworking-dummy.m in Sources */,
+				8FBAAC313B8319A44AFCA10C2F091DC6 /* GBNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1E801D9ECAB3BAD7FADBF95C25623D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EB4BD7B0386E165A6F320FE75920D /* GBLogining-dummy.m in Sources */,
+				77181DB1E9C7ADD8B32F11AFE60C6574 /* GBLogining.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB187138C96680FB55CAD78BC147C017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCABE124C0AF7E4C9E841BD5E8392A8B /* GBMine-dummy.m in Sources */,
+				ED95B51778A10E6CD37FC61E506350CB /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		77667BC88FA76B5AC05185E22BB46E5C /* PBXTargetDependency */ = {
+		0386546BBBCD99FD1017C391E1FF94CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GBNetworking;
 			target = 7AB1EFD3E82013DBCDAF8155C761DC4C /* GBNetworking */;
-			targetProxy = 11B2F106FA6A439CADE97D0A17BDABA6 /* PBXContainerItemProxy */;
+			targetProxy = 8C0F98127F6A11296150EB6FCB9C2548 /* PBXContainerItemProxy */;
 		};
-		B753B0DF3CD3929362190B1FBED769E9 /* PBXTargetDependency */ = {
+		155F96D266187E9FBAA182CED78DD683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBLogining;
+			target = F8C3DD2F15F8A72E2CD6BF81557B5D2B /* GBLogining */;
+			targetProxy = 626A6B8F40D0A9E4B90C1A11D63B4A08 /* PBXContainerItemProxy */;
+		};
+		566CC7088C03FD13A1EAB4FAF6A49C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBMine;
+			target = 3D1166B2168A71D9698478E7CF620F84 /* GBMine */;
+			targetProxy = AA1D77036261CD67FED4B1C67B400085 /* PBXContainerItemProxy */;
+		};
+		5D552A23191FFE66FB110615710CE0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBLogining;
+			target = F8C3DD2F15F8A72E2CD6BF81557B5D2B /* GBLogining */;
+			targetProxy = 0D18416A890E5593796C496B37546135 /* PBXContainerItemProxy */;
+		};
+		68C9D45B5A534025CA3E9CEB19045D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBMine;
+			target = 3D1166B2168A71D9698478E7CF620F84 /* GBMine */;
+			targetProxy = 40EC821F8AFB583BDD8EADE66A8632E9 /* PBXContainerItemProxy */;
+		};
+		8B9738393DBDDE6358F934FD5B40F073 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GBDemo";
 			target = 407C6632AA44745369F5386601C7DADE /* Pods-GBDemo */;
-			targetProxy = DAB589696BACC55999EB387AE98C3E19 /* PBXContainerItemProxy */;
+			targetProxy = 8BD34F6B049EC1E6E968EAD9F0BADDFE /* PBXContainerItemProxy */;
 		};
-		F32AE165EE2E10AA77FDFAEBC1366E5D /* PBXTargetDependency */ = {
+		D7D811C8C5A3ADA5F01E750D041A6330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBShelf;
+			target = 8AF1952F605BECBEF413B627CFDE9138 /* GBShelf */;
+			targetProxy = ACA96BEB4249F175462C8DCAA07152E1 /* PBXContainerItemProxy */;
+		};
+		E2A3351C445C07C01BFF22AEDFA047BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GBNetworking;
 			target = 7AB1EFD3E82013DBCDAF8155C761DC4C /* GBNetworking */;
-			targetProxy = 075F93343A5B477011D6CE27A969D6FD /* PBXContainerItemProxy */;
+			targetProxy = A909B4CCCC8EC995C06FD484C8CA5551 /* PBXContainerItemProxy */;
+		};
+		ED19785EE2D83FA0FE5AC162468B2903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBNetworking;
+			target = 7AB1EFD3E82013DBCDAF8155C761DC4C /* GBNetworking */;
+			targetProxy = C3A18823B55312449CC8AE534678DB9C /* PBXContainerItemProxy */;
+		};
+		FA5B3B1FC47B85235C8C67B745B95107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBShelf;
+			target = 8AF1952F605BECBEF413B627CFDE9138 /* GBShelf */;
+			targetProxy = A94F2648530FA38B5F4D520511CA34F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00D2EC3174FA506ADB60986E173833E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AAAFF6079D62EC2EBEDCEF269BE8D5 /* GBNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GBNetworking/GBNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBNetworking/GBNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GBNetworking/GBNetworking.modulemap";
+				PRODUCT_MODULE_NAME = GBNetworking;
+				PRODUCT_NAME = GBNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0844ECBC8BA37F07008ECDB655778900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9327519D9C39C3CB4635D7C2679B3731 /* GBMine.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GBMine/GBMine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBMine/GBMine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GBMine/GBMine.modulemap";
+				PRODUCT_MODULE_NAME = GBMine;
+				PRODUCT_NAME = GBMine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -572,12 +998,10 @@
 			};
 			name = Debug;
 		};
-		2959A4F83DE14DD9F0997E2F83345EF1 /* Debug */ = {
+		59C2161420B3879ABF9A8ADFBB069618 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE82C552D10F865AB91C8F48AC38BCC9 /* Pods-GBDemo-GBDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = E4F2D2A6023AE72C1D516F61FAAFEF85 /* GBNetworking.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -586,103 +1010,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GBNetworking/GBNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBNetworking/GBNetworking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GBNetworking/GBNetworking.modulemap";
+				PRODUCT_MODULE_NAME = GBNetworking;
+				PRODUCT_NAME = GBNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2DE611E1F5B2A5B4731E8E649E6E857B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D928E7F5C8BE0929C3D143E2AA5B251 /* Pods-GBDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GBDemo/Pods-GBDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GBDemo/Pods-GBDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5A217A60216FC106C802A7906EB6C209 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA0B5132A4ED97C55451674CF6D6DDC9 /* Pods-GBDemo-GBDemoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		5BCC04AFDC4B815CC9CF97D60A53CC87 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -821,9 +1168,9 @@
 			};
 			name = Release;
 		};
-		C4030239662389FE4F9E4AA4FA96783D /* Release */ = {
+		A0CBABB2E62BCE832127967DD697EF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E42032FE16D8B6170899691E7D7C564 /* GBNetworking.release.xcconfig */;
+			baseConfigurationReference = 3BB079B461E6C76B8700E8AB048154CD /* GBLogining.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -833,8 +1180,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GBNetworking/GBNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GBNetworking/GBNetworking-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GBLogining/GBLogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBLogining/GBLogining-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -842,9 +1189,42 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/GBNetworking/GBNetworking.modulemap";
-				PRODUCT_MODULE_NAME = GBNetworking;
-				PRODUCT_NAME = GBNetworking;
+				MODULEMAP_FILE = "Target Support Files/GBLogining/GBLogining.modulemap";
+				PRODUCT_MODULE_NAME = GBLogining;
+				PRODUCT_NAME = GBLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5DF349A80CC60ACA6B795DA21196873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BF971E9FDF5A239D455CF8569FA8A3 /* GBMine.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GBMine/GBMine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBMine/GBMine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GBMine/GBMine.modulemap";
+				PRODUCT_MODULE_NAME = GBMine;
+				PRODUCT_NAME = GBMine;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -855,7 +1235,23 @@
 			};
 			name = Release;
 		};
-		C9CA45C1674CD5C829168685EC6702A8 /* Release */ = {
+		BD2F0D6EC1CC8BFDE4E426E6577B38FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F605373741427431E8E1C6743A6025A9 /* GBShelf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11539AA342B82E829D3241DC983B0EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3989540DC7012DF9A558A5345FB83E99 /* Pods-GBDemo.release.xcconfig */;
 			buildSettings = {
@@ -893,9 +1289,46 @@
 			};
 			name = Release;
 		};
-		EE1393E2DA7C9D6D174CBEA445ED06DD /* Debug */ = {
+		C785372FC70DD518A7CB1C36A5903BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C8A3A2CE1B85234FEE94A847148BC4 /* GBNetworking.debug.xcconfig */;
+			baseConfigurationReference = 3D928E7F5C8BE0929C3D143E2AA5B251 /* Pods-GBDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBDemo/Pods-GBDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBDemo/Pods-GBDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F24C833F70B275C74EE6FBD8592029C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF4CC4BF4B1E9986E966760DA65F7E3 /* GBLogining.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -905,8 +1338,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GBNetworking/GBNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GBNetworking/GBNetworking-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GBLogining/GBLogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBLogining/GBLogining-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -914,21 +1347,132 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/GBNetworking/GBNetworking.modulemap";
-				PRODUCT_MODULE_NAME = GBNetworking;
-				PRODUCT_NAME = GBNetworking;
+				MODULEMAP_FILE = "Target Support Files/GBLogining/GBLogining.modulemap";
+				PRODUCT_MODULE_NAME = GBLogining;
+				PRODUCT_NAME = GBLogining;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F66BE1A33BD9EAA2C9ADF4B774514F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801B09B240BB8CDD24EA59A97C165613 /* GBShelf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9D8E512FAF878FC7DB3EE517FB5AC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE82C552D10F865AB91C8F48AC38BCC9 /* Pods-GBDemo-GBDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		FD0A73D444871A2EAEC45D5CBAA24C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0B5132A4ED97C55451674CF6D6DDC9 /* Pods-GBDemo-GBDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBDemo-GBDemoUITests/Pods-GBDemo-GBDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A6BBD13AC56150C3049DE8181553D92 /* Build configuration list for PBXNativeTarget "GBMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0844ECBC8BA37F07008ECDB655778900 /* Debug */,
+				A5DF349A80CC60ACA6B795DA21196873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A79500918B0A422E300AFBD843DE34 /* Build configuration list for PBXNativeTarget "GBNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C2161420B3879ABF9A8ADFBB069618 /* Debug */,
+				00D2EC3174FA506ADB60986E173833E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -938,29 +1482,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B82A8435CC4A1CF74C81691CC5ED274 /* Build configuration list for PBXNativeTarget "Pods-GBDemo" */ = {
+		490AEEDD9DB2FFAAC84451E7764DCB1B /* Build configuration list for PBXNativeTarget "Pods-GBDemo-GBDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DE611E1F5B2A5B4731E8E649E6E857B /* Debug */,
-				C9CA45C1674CD5C829168685EC6702A8 /* Release */,
+				F9D8E512FAF878FC7DB3EE517FB5AC6F /* Debug */,
+				FD0A73D444871A2EAEC45D5CBAA24C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75E4AAB2A78D786401C9D507FE72C44D /* Build configuration list for PBXNativeTarget "GBNetworking" */ = {
+		6DCFF1F6260FDFFD82BACB77833809F9 /* Build configuration list for PBXNativeTarget "GBLogining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE1393E2DA7C9D6D174CBEA445ED06DD /* Debug */,
-				C4030239662389FE4F9E4AA4FA96783D /* Release */,
+				A0CBABB2E62BCE832127967DD697EF09 /* Debug */,
+				F24C833F70B275C74EE6FBD8592029C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C813CC8DA186D0889D9A9AFBFA518552 /* Build configuration list for PBXNativeTarget "Pods-GBDemo-GBDemoUITests" */ = {
+		A0302715BECAEEF82590B894CE97BDEB /* Build configuration list for PBXAggregateTarget "GBShelf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2959A4F83DE14DD9F0997E2F83345EF1 /* Debug */,
-				5A217A60216FC106C802A7906EB6C209 /* Release */,
+				BD2F0D6EC1CC8BFDE4E426E6577B38FD /* Debug */,
+				F66BE1A33BD9EAA2C9ADF4B774514F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FCB7458C831008B40D12882C27FDBA /* Build configuration list for PBXNativeTarget "Pods-GBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C785372FC70DD518A7CB1C36A5903BA1 /* Debug */,
+				C11539AA342B82E829D3241DC983B0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

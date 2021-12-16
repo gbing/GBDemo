@@ -1,0 +1,6 @@
+framework module GBMine {
+  umbrella header "GBMine-umbrella.h"
+
+  export *
+  module * { export * }
+}

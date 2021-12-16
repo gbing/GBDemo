@@ -1,0 +1,22 @@
+{
+  "name": "GBShelf",
+  "version": "0.1.0",
+  "summary": "GBShelf for demo",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gbing/GBShelf",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gbing": "guo_b_it@163.com"
+  },
+  "source": {
+    "git": "https://github.com/gbing/GBShelf.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GBShelf/Classes/**/*"
+}

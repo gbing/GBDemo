@@ -8,6 +8,9 @@ target 'GBDemo' do
   # Pods for GBDemo
 
   pod 'GBLogining', :path => 'Lib/GBLogining'
+  pod 'GBMine', :path => 'Lib/GBMine'
+  pod 'GBShelf', :path => './Lib'
+  pod 'GBNetworking'
   
   target 'GBDemoTests' do
     inherit! :search_paths

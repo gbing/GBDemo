@@ -1,0 +1,6 @@
+framework module GBLogining {
+  umbrella header "GBLogining-umbrella.h"
+
+  export *
+  module * { export * }
+}

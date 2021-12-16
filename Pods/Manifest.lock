@@ -1,16 +1,34 @@
 PODS:
-  - GBNetworking (0.1.0)
+  - GBLogining (0.1.0):
+    - GBNetworking
+  - GBMine (0.1.0)
+  - GBNetworking (0.3.0)
+  - GBShelf (0.1.0)
 
 DEPENDENCIES:
-  - GBNetworking (from `Lib/GBNetworking`)
+  - GBLogining (from `Lib/GBLogining`)
+  - GBMine (from `Lib/GBMine`)
+  - GBNetworking
+  - GBShelf (from `./Lib`)
+
+SPEC REPOS:
+  trunk:
+    - GBNetworking
 
 EXTERNAL SOURCES:
-  GBNetworking:
-    :path: Lib/GBNetworking
+  GBLogining:
+    :path: Lib/GBLogining
+  GBMine:
+    :path: Lib/GBMine
+  GBShelf:
+    :path: "./Lib"
 
 SPEC CHECKSUMS:
-  GBNetworking: 11fc09202345e55f89c64132349405e9b167b13a
+  GBLogining: 8dbab88d3c7149c761bbf1f159d9e8d184eef00a
+  GBMine: d8df58f4e98b385410c0fddfc56c4f21ba9e71c4
+  GBNetworking: 52203a4e0e0d4d78b55f6d9d361732addb6e0bdd
+  GBShelf: be2826fe4a991aa814b6da7088f1edf16a74ddf7
 
-PODFILE CHECKSUM: 624057df025a31bc7285461a65a477e46cab718a
+PODFILE CHECKSUM: 3a767793ca7ddf80f0b78b662f9b09bef8a4645b
 
 COCOAPODS: 1.10.0
